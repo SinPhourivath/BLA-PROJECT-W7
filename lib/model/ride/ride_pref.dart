@@ -23,4 +23,16 @@ class RidePreference {
         'arrival: ${arrival.name}, '
         'requestedSeats: $requestedSeats)';
   }
+
+  // Compare for the same departure and arrival
+  // Used when identifying preference history
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    return other is RidePreference &&
+        (other.departure == departure && other.arrival == arrival);
+  }
+  
+  @override
+  int get hashCode => Object.hash(departure, arrival);
 }
