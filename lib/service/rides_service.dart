@@ -1,6 +1,6 @@
 import 'package:week7/model/ride/ride_filter.dart';
 import 'package:week7/model/ride/ride_pref.dart';
-import 'package:week7/repository/rides_repository.dart';
+import 'package:week7/data/repository/rides_repository.dart';
 
 import '../model/ride/ride.dart';
 

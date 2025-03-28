@@ -1,5 +1,5 @@
 import '../model/ride/ride_pref.dart';
-import '../repository/ride_preferences_repository.dart';
+import '../data/repository/ride_preferences_repository.dart';
 
 ////
 ///   This service handles:
